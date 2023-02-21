@@ -1,0 +1,5 @@
+<h2>Title: <%= @task.title %></h2>
+<p class="button-edit"><%= link_to '<i class="fa-solid fa-pen-to-square"></i>'.html_safe, edit_task_path %></p>
+<p>Details: <%= @task.details %></p>
+<p>Completed: <%= @task.completed %></p>
+<p class="link"><%= link_to 'Back to my tasks', tasks_path %></p>

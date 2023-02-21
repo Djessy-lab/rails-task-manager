@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background-color: #e9edc9;
+  text-align: center;
+ }
+
+ li {
+  list-style: none;
+ }
+
+ .button-create {
+  font-size: 40px;
+ }
+
+ .button-edit {
+  font-size: 40px;
+ }
+
+ .link-task {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+ }
+
+ .fa-trash {
+  font-size: 35px;
+ }
